@@ -1,0 +1,32 @@
+.college {
+  background-image: url(lib/image-1/img/college.png);
+}
+.elderly {
+  background-image: url(lib/image-1/img/elderly.png);
+}
+.feature {
+  background-image: url(lib/image-1/img/feature.png);
+}
+.forum {
+  background-image: url(lib/image-1/img/forum.png);
+}
+.generation {
+  background-image: url(lib/image-1/img/generation.png);
+}
+.urs {
+  background-image: url(lib/image-1/img/usr.png);
+}
+.category-icon {
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-position: center;
+
+    margin: 0px 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+  /*  mix-blend-mode: hard-light; */
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 60px;
+}

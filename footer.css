@@ -1,0 +1,9 @@
+.footer{display:flex;flex-direction:row;justify-content:space-between;align-items:center;padding:20px 35px;position:relative;height:84px;background:#FFFFFF;border:1px solid #000000;}
+.footer-home{flex:none;order:0;flex-grow:0;margin:0px 0px;position:static;width:31px;height:31px;left:35px;top:26.5px;}
+.icon-home{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:#000000;}
+.footer-story{flex:none;order:1;flex-grow:0;margin:0px 0px;position:static;width:31px;height:31px;left:138px;top:26.5px;}
+.icon-story{position:absolute;width:31px;height:31px;left:0px;top:0px;background:#000000;}
+.footer-event{flex:none;order:2;flex-grow:0;margin:0px 0px;position:static;width:31px;height:31px;left:241px;top:26.5px;}
+.icon-event{position:absolute;width:31px;height:31px;left:0px;top:0px;background:#000000;}
+.footer-list{flex:none;order:3;flex-grow:0;margin:0px 0px;position:static;width:31px;height:31px;left:344px;top:26.5px;}
+.icon-list{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:#000000;}
