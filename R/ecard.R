@@ -22,6 +22,14 @@ cardContentTeacher <- function(){
     tags$div(class = "card-content-teacher-word",
       "前往VoiceTube 聽 Leila 老師如何應用單字"))
 }
+cardBackgroundIcons <- function(){
+  tags$div(class = "card-background-icons",
+    tags$div(class = "card-background-icons-1",
+      tags$img(src="/lib/img-1/iconVoice.svg")),
+    tags$div(class = "card-background-icons-2",
+      tags$img(src="/lib/img-1/iconHeart.svg")))
+
+}
 ecard_dependency <- function(){
   tagList(
     htmltools::htmlDependency(
