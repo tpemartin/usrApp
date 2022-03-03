@@ -13,7 +13,7 @@
 .card-content-btn{display:flex;flex-direction:row;align-items:flex-start;padding:3px;flex:none;order:1;flex-grow:0;margin:5.66666666666667px 0px;position:static;width:41px;height:18px;left:calc(50% - 41px/2 - 120.5px);top:calc(50% - 18px/2 + 32.5px);background:#52B88D;border:1px solid #6FCF97;box-sizing:border-box;border-radius:5px;}
 .card-content-btn-level{flex:none;order:0;flex-grow:0;position:static;left:7.32%;right:7.32%;top:16.67%;bottom:16.67%;font-family:Roboto;font-style:normal;font-weight:normal;font-size:10px;line-height:12px;color:#FFFFFF;}
 .card-content-teacher{display:flex;flex-direction:row;align-items:flex-start;padding:9px 24px;flex:none;order:2;align-self:stretch;flex-grow:0;margin:5.66666666666667px 0px;position:static;height:59px;right:10px;top:calc(50% - 59px/2 + 88px);background:#716B96;border-radius:9px;}
-.card-content-teacher-img{flex:none;order:0;flex-grow:0;margin:0px 6.5px;position:static;width:40px;height:41px;left:24px;top:9px;}
+.card-content-teacher-img{flex:none;order:0;flex-grow:0;margin:0px 6.5px;position:static;width:40px;height:41px;left:24px;top:9px;background:url(/lib/img-1/teacher.png);}
 .card-content-teacher-img-img-teacher{position:absolute;left:0%;right:0%;top:0%;bottom:2.44%;background:url(Checker.png);border-radius:40px;}
 .img-teacher{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:#E9C9A5;border-radius:40px;}
 .card-content-teacher-word{order:1;flex-grow:1;margin:0px 6.5px;position:static;height:41px;left:27.3%;right:8.51%;top:calc(50% - 41px/2);font-family:Roboto;font-style:normal;font-weight:normal;font-size:13px;line-height:15px;display:flex;align-items:center;color:#FFFFFF;opacity:0.5;}
