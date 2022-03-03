@@ -8,14 +8,20 @@ tag_ecard <-function(){
           tags$div(class = "card-background-icons-2-iconHeart")))),
     tags$div(class = "card-content",
       tags$div(class = "card-content-word",
-        tags$div(class = "card-content-word-title"),
-        tags$div(class = "card-content-word-pronun"),
-        tags$div(class = "card-content-word-explain")),
+        tags$div(class = "card-content-word-title",
+          "trick"),
+        tags$div(class = "card-content-word-pronun",
+          "US /trɪk/       US /trɪk/"),
+        tags$div(class = "card-content-word-explain",
+          "adj. 虛弱的；欺詐的
+n. 戲法；竅門；訣竅；把戲；特技")),
       tags$div(class = "card-content-btn",
-        tags$div(class = "card-content-btn-level")),
+        tags$div(class = "card-content-btn-level",
+          "A2 初級")),
       tags$div(class = "card-content-teacher",
         tags$div(class = "card-content-teacher-img"),
-        tags$div(class = "card-content-teacher-word"))))
+        tags$div(class = "card-content-teacher-word",
+          "前往VoiceTube 聽 Leila 老師如何應用單字"))))
 }
 ecard_dependency <- function(){
   htmltools::htmlDependency(
