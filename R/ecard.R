@@ -1,11 +1,7 @@
 tag_ecard <-function(){
   tags$div(class = "card",
     tags$div(class = "card-background",
-      tags$div(class = "card-background-icons",
-        tags$div(class = "card-background-icons-1",
-          tags$div(class = "card-background-icons-1-iconVoice")),
-        tags$div(class = "card-background-icons-2",
-          tags$div(class = "card-background-icons-2-iconHeart")))),
+      cardBackgroundIcons()),
     tags$div(class = "card-content",
       tags$div(class = "card-content-word",
         tags$div(class = "card-content-word-title",
@@ -19,6 +15,12 @@ n. 戲法；竅門；訣竅；把戲；特技")),
         tags$div(class = "card-content-btn-level",
           "A2 初級")),
       cardContentTeacher()))
+}
+cardContentTeacher <- function(){
+  tags$div(class = "card-content-teacher",
+    tags$div(class = "card-content-teacher-img"),
+    tags$div(class = "card-content-teacher-word",
+      "前往VoiceTube 聽 Leila 老師如何應用單字"))
 }
 ecard_dependency <- function(){
   tagList(
@@ -40,4 +42,4 @@ ecard_dependency <- function(){
 ui_ecard <- function(dependency=NULL){
   tagList(tag_ecard(), ecard_dependency(), dependency)
 }
-ui_ecard() |> browseTag2()
+# ui_ecard() |> browseTag2()
