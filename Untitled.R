@@ -1,23 +1,34 @@
-fig <- Fig()
-fig$split_innerContent$`navbar-more` <-
-  tags$img(src="lib/assets")
-image_dependency <- function(){
-  htmltools::htmlDependency(
-    name="image",
-    version="1",
-    src=c(file=normalizePath("assets")),
-    attachment = "img"
-  )
-}
+# background card
+cardBackground <- econWeb::Fig()
 
-fig$split_css$`navbar-more`$inside_autoLayout$margin <- NULL
-fig$split_css$`navbar-logo`$inside_autoLayout$margin <- NULL
-fig$update_css()
+cardBackground$ui() |> browseTag2()
+cardBackground$split_css$`cardLarge-background-image`$remain$background <- "white"
+cardBackground$split_css$`cardLarge-background-image`$remain$`mix-blend-mode`="soft-light"
+cardBackground$split_css$`cardLarge-background`$remain$`background-image` = "url(https://miro.medium.com/max/1400/1*2v4yO6cR2XOSlI65Ge6GrA.jpeg)"
+cardBackground$split_css$`cardLarge-background`$remain$`background-size`="cover"
+cardBackground$update_css()
+cardBackground$ui() |> browseTag2()
+cardBackground$export("cardBackground")
 
-fig$split_innerContent$`navbar-more` <-
-  tags$img(src="lib/image-1/img/icon-more.svg")
-fig$split_innerContent$`navbar-logo` <-
-  tags$img(src="lib/image-1/img/logo-usr.svg")
-fig$update_div()
-fig$ui(image_dependency) |> browseTag2()
-fig$export(tagname="navbar")
+###
+
+cardCategory <- Fig()
+cardCategory$ui() |> browseTag2()
+cardCategory$split_css$`cardLarge-content-category-icon-iconCollege`$remain$background<- "url(lib/img-1/iconCollege.png)"
+cardCategory$split_css$`cardLarge-content-category-icon`$remain$position="relative"
+cardCategory$update_css()
+cardCategory$export("cardCategory")
+
+###
+cardCatContainer <- Fig()
+cardCatContainer$ui() |> browseTag2()
+cardCatContainer$export("cardCatContainer")
+
+###
+cardContent <- Fig()
+cardContent$ui() |> browseTag2()
+cardContent$export("cardContent")
+
+###
+cardLarge <- Fig()
+cardLarge$export("cardLage")

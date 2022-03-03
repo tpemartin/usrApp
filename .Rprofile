@@ -1,2 +1,6 @@
 library(htmltools)
 library(econWeb)
+# web <- Web()
+# web$add_jQuery()
+# web$create_page()
+# web$show_page()
