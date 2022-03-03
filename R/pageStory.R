@@ -32,4 +32,4 @@ pageStory_dependency <- function(){
 ui_pageStory <- function(dependency=NULL){
   tagList(tag_pageStory(), pageStory_dependency(), dependency)
 }
-ui_pageStory() |> browseTag2()
+# ui_pageStory() |> browseTag2()
