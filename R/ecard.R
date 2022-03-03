@@ -21,13 +21,22 @@ n. 戲法；竅門；訣竅；把戲；特技")),
       cardContentTeacher()))
 }
 ecard_dependency <- function(){
-  htmltools::htmlDependency(
-    name="ecard",
-    version="1.0.0",
-    src=c(file=normalizePath("./assets/css")),
-    style="ecard.css",
-    all_files = F
-  )}
+  tagList(
+    htmltools::htmlDependency(
+      name="img", version=1,
+      src=c(file=normalizePath("assets/img")),
+      attachment="",
+      all_files = T
+    ),
+    htmltools::htmlDependency(
+      name="ecard",
+      version="1.0.0",
+      src=c(file=normalizePath("./assets/css")),
+      style="ecard.css",
+      all_files = F
+    )
+  )
+  }
 ui_ecard <- function(dependency=NULL){
   tagList(tag_ecard(), ecard_dependency(), dependency)
 }
