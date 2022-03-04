@@ -1,16 +1,25 @@
 tag_pageStory <-function(){
   tags$div(class = "pageStory",
-    tags$div(class = "pageStory-navbar",
-      tags$div(class = "pageStory-navbar-logo"),
-      tags$div(class = "pageStory-navbar-iconMore")),
+    pageNavbar(),
     tags$div(class = "pageStory-stories",
       tags$div(class = "pageStory-stories-cards"),
       tags$div(class = "pageStory-stories-sidenave")),
-    tags$div(class = "pageStory-footer",
-      tags$div(class = "pageStory-footer-home"),
-      tags$div(class = "pageStory-footer-story"),
-      tags$div(class = "pageStory-footer-event"),
-      tags$div(class = "pageStory-footer-list")))
+    pageFooter()
+    )
+}
+
+# helpers -----------------------------------------------------------------
+pageFooter <- function(){
+  tags$div(class = "pageStory-footer",
+    tags$div(class = "pageStory-footer-home"),
+    tags$div(class = "pageStory-footer-story"),
+    tags$div(class = "pageStory-footer-event"),
+    tags$div(class = "pageStory-footer-list"))
+}
+pageNavbar <- function(){
+  tags$div(class = "pageStory-navbar",
+    tags$div(class = "pageStory-navbar-logo"),
+    tags$div(class = "pageStory-navbar-iconMore"))
 }
 pageStory_dependency <- function(){
   htmltools::tagList(
