@@ -2,3 +2,4 @@
 
 export(card)
 export(plugin_share)
+export(scale_poster)

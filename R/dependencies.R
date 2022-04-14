@@ -1,11 +1,11 @@
-share_dependency <- function(){
+share_dependency <- btnAddCalendar_dependency <-posterFront_dependency <-function(){
   htmltools::htmlDependency(
     name="usrApp",
     version="1.0.0",
     src=c(file=system.file("/usrapp", package = "usrApp")),
-    style="css/share.css",
+    style="css/main.css",
     script="js/share.js",
-    all_files = F
+    all_files = T
   )}
 img_dependency <- function(){
   htmltools::htmlDependency(
@@ -15,6 +15,22 @@ img_dependency <- function(){
     attachment = "",
     all_files = T
   )}
+# btnAddCalendar_dependency <- function(){
+#   htmltools::htmlDependency(
+#     name="usrApp",
+#     version="1.0.0",
+#     src=c(file=system.file("/usrapp/css",  package = "usrApp")),
+#     style="btnAddCalendar.css",
+#     all_files = F
+#   )}
+# posterFront_dependency <- function(){
+#   htmltools::htmlDependency(
+#     name="usrApp",
+#     version="1.0.0",
+#     src=c(file=system.file("/usrapp/css",  package = "usrApp")),
+#     style="posterFront.css",
+#     all_files = F
+#   )}
 jquery_dependency = function(){
   htmltools::htmlDependency(
     name="jquery",
