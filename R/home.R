@@ -20,4 +20,4 @@ home_dependency <- function(){
 ui_home <- function(dependency=img_dependency()){
   tagList(tag_home(), home_dependency(), dependency)
 }
-ui_home() |> econWeb::browseTag2()
+# ui_home() |> econWeb::browseTag2()

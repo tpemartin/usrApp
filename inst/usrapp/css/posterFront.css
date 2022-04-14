@@ -1,0 +1,22 @@
+.posterFront{display:flex;flex-direction:column;align-items:center;padding:15px 10px;position:relative;width:340.08px;height:634.2px;background:#333333;border-radius:16px;}
+.posterFront-container{flex:none;order:0;align-self:stretch;flex-grow:1;margin:21.5px 0px;position:static;height:443.2px;left:10px;top:15px;}
+.posterFront-container-image{position:absolute;height:443.2px;left:0px;right:0px;top:0px;}
+.image 5{position:absolute;left:0%;right:1.05%;top:0%;bottom:0%;background:url(公民培訓-Figma.jpg);border-radius:0px;}
+.posterFront-container-btnFixer{position:absolute;width:140px;height:0px;right:-0.03px;top:443.26px;}
+.分享按鍵{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;padding:0px;position:absolute;width:63px;height:267px;right:0px;bottom:-1px;}
+.Frame 31{flex:none;order:0;flex-grow:0;margin:10px 0px;position:static;display:none;width:63px;height:203px;left:0px;top:0px;}
+.button share{flex:none;order:1;flex-grow:0;margin:10px 0px;position:static;width:54px;height:54px;left:4.5px;top:213px;border:1px solid #BDBDBD;box-sizing:border-box;border-radius:54px;}
+.Ellipse 1{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:rgba(242, 242, 242, 0.52);}
+.fluent:share-ios-48-filled{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:4px 5px;position:absolute;left:22.2%;right:22.2%;top:21.21%;bottom:21.21%;}
+.加到行事曆{position:absolute;width:54px;height:54px;right:86px;bottom:0px;background:#FFFFFF;opacity:0.7;border:1px solid #BDBDBD;box-sizing:border-box;border-radius:54px;}
+.add-to-calendar{position:absolute;left:24.07%;right:24.07%;top:24.07%;bottom:24.07%;}
+.bi:calendar{position:absolute;left:0%;right:0%;top:0%;bottom:0%;}
+.fe:google-plus{position:absolute;left:0%;right:0%;top:0%;bottom:0%;}
+.posterFront-titleDetail{display:flex;flex-direction:row;align-items:center;padding:0px 10px 0px 20px;flex:none;order:1;align-self:stretch;flex-grow:0;margin:21.5px 0px;position:static;height:118px;left:10px;top:501.2px;}
+.posterFront-titleDetail-title{flex:none;order:0;flex-grow:1;margin:0px 15px;position:static;width:200.08px;height:108px;left:20px;top:5px;font-family:'Noto Sans TC';font-style:normal;font-weight:400;font-size:24px;line-height:36px;display:flex;align-items:center;color:#FFFFFF;}
+.posterFront-titleDetail-detail{flex:none;order:1;flex-grow:0;margin:0px 15px;position:static;width:60px;height:60px;left:250.08px;top:29px;}
+.fluent:more-circle-32-regular{position:absolute;width:60px;height:60px;left:0px;top:0px;}
+.Vector{flex:none;order:0;align-self:stretch;flex-grow:1;margin:0px 10px;position:static;left:16.66%;right:16.66%;top:12.87%;bottom:12.87%;background:#000000;}
+.Vector1{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:#000000;}
+.Vector2{position:absolute;left:8.5%;right:8.17%;top:35%;bottom:11.97%;background:#000000;}
+.Vector3{position:absolute;left:6.25%;right:6.25%;top:6.25%;bottom:6.25%;background:#FFFFFF;}

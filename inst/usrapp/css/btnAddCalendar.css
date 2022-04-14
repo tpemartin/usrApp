@@ -1,0 +1,7 @@
+.btnAddCalendar{position:relative;width:54px;height:54px;background:#FFFFFF;opacity:0.7;border:1px solid #BDBDBD;box-sizing:border-box;border-radius:54px;}
+.btnAddCalendar-gcalendar{position:absolute;width:28px;height:28px;left:13px;top:13px;background:no-repeat center url(/lib/usrAppImg-1.0.0/gcalendar.svg);}
+.icon{position:absolute;left:24.07%;right:24.07%;top:24.07%;bottom:24.07%;}
+.bi:calendar{position:absolute;left:0%;right:0%;top:0%;bottom:0%;}
+.fe:google-plus{position:absolute;left:0%;right:0%;top:0%;bottom:0%;}
+.Vector{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background:#000000;}
+.Vector1{position:absolute;left:8.5%;right:8.17%;top:35%;bottom:11.97%;background:#000000;}
