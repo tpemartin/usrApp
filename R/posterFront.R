@@ -8,7 +8,8 @@ tag_posterFront <-function(title, imgSrc){
         plugin_share())),
     tags$div(class = "posterFront-titleDetail",
       tags$div(class = "posterFront-titleDetail-title", title),
-      tags$div(class = "posterFront-titleDetail-detail")))
+      tags$div(class = "posterFront-titleDetail-detail"))) |>
+    tags$div(class="pageBody")
 }
 
 ui_posterFront <- function(title="USR公民培訓課程：UI設計神器Figma",imgSrc="/lib/usrAppImg-1.0.0/figmaposter-sm.jpg", dependency=NULL){
@@ -18,7 +19,7 @@ ui_posterFront <- function(title="USR公民培訓課程：UI設計神器Figma",i
 }
 tag_posterBack <-function(title, context){
   tags$div(class = "posterFront",
-    tags$div(class = "posterFront-container",
+    tags$div(class = "posterBack-container",
       tags$div(class = "posterBack-container-context",
       tags$div(class="posterContext",
         context)),
@@ -27,7 +28,8 @@ tag_posterBack <-function(title, context){
         plugin_share())),
     tags$div(class = "posterFront-titleDetail",
       tags$div(class = "posterFront-titleDetail-title", title),
-      tags$div(class = "posterBack-titleDetail-return")))
+      tags$div(class = "posterBack-titleDetail-return"))) |>
+    tags$div(class="pageBody")
 }
 ui_posterBack <- function(title="USR公民培訓課程：UI設計神器Figma", context){
   tagList(tag_posterBack(title, context),

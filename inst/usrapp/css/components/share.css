@@ -12,7 +12,8 @@
 .share-shareFrame-shareBtn{flex:none;order:0;flex-grow:0;position:static;width:49px;height:49px;left:0px;top:0px;background:rgba(242, 242, 242, 0.52);border-radius:49px;}
 .share-shareFrame-shareBtn-ellipse{position:absolute;visibility:hidden;left:0%;right:0%;top:0%;bottom:0%;background:rgba(242, 242, 242, 0.52);}
 .share-shareFrame-shareBtn-iconShare{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:4px 5px;left:22.2%;right:22.2%;top:21.21%;bottom:21.21%;background:center no-repeat url(/lib/usrAppImg-1.0.0/icon-share.svg);height:39px;}
+/*
 .Vector{position:absolute;visibility:hidden;left:6.25%;right:0.69%;top:18.75%;bottom:18.75%;background:#FFFFFF;}
 .Vector1{position:absolute;left:10.97%;right:10.95%;top:10.96%;bottom:10.96%;background:#FFFFFF;}
 .Vector2{position:absolute;left:0.03%;right:0.03%;top:0%;bottom:0%;background:#FEFEFE;}
-.Vector3{flex:none;order:0;align-self:stretch;flex-grow:1;margin:0px 10px;position:static;left:18.35%;right:18.35%;top:14.18%;bottom:14.18%;background:#000000;}
+.Vector3{flex:none;order:0;align-self:stretch;flex-grow:1;margin:0px 10px;position:static;left:18.35%;right:18.35%;top:14.18%;bottom:14.18%;background:#000000;}*/

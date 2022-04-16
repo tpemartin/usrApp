@@ -1,10 +1,10 @@
-share_dependency <- btnAddCalendar_dependency <-posterFront_dependency <-function(){
+app_dependency <- share_dependency <- btnAddCalendar_dependency <-posterFront_dependency <-function(){
   htmltools::htmlDependency(
     name="usrApp",
     version="1.0.0",
     src=c(file=system.file("/usrapp", package = "usrApp")),
     style="css/main.css",
-    script="js/share.js",
+    script=c("js/share.js","js/btnPress.js"),
     all_files = T
   )}
 img_dependency <- function(){

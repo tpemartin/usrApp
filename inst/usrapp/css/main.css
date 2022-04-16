@@ -2,8 +2,4 @@
 @import url(components/home.css);
 @import url(components/posterFront.css);
 @import url(components/share.css);
-/Users/martinl/Github/usrApp/inst/usrapp/css/components
-btnAddCalendar.css
-home.css
-posterFront.css
-share.css
+@import url(components/signup.css);
