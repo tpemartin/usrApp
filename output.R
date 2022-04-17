@@ -6,5 +6,5 @@ htmltools::save_html(
   htmltools::tagList(tag, dep_mobile()), file=file.path("temp","temp.html")
 )
 
-ui_posterFront2() |>
+poster() |>
   econWeb::save_html2(file=file.path("docs", "index.html"))

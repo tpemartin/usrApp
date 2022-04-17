@@ -2,8 +2,8 @@ $(function(){
     $front =$("#front");
     $back=$("#back");
     $detailReturn=$("#detail-return");
-    $iconDetail=$($(".posterFront-titleDetail-detail")[0]);
-    $iconReturn=$($(".posterBack-titleDetail-return")[0]);
+    $iconDetail=$($(".btnDetail")[0]);
+    $iconReturn=$($(".btnReturn")[0]);
     $detailReturn.click(toggleInfo);
 });
 function toggleInfo(){
