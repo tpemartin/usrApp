@@ -9,12 +9,12 @@
 .posterFront-fixbar{flex:none;order:1;align-self:stretch;flex-grow:0;margin:1.66666666666667px 0px;position:sticky;height:0.000001px;right:10px;top:456.2px;}
 
 .posterFront-fixbar > div.btnCalendar {
-  right: 35.08px;
-bottom: -88.8px;
+  right: 49.08px;
+bottom: -44.8px;
 }
 .posterFront-fixbar > div.btnSignup{
-  right: 66px;
-top: 0.87px;
+  right: 100px;
+bottom: -44.8px;
 }
 .posterFront-fixbar > div.share{
   right: -9.45px;
