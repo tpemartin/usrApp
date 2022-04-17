@@ -8,3 +8,5 @@ htmltools::save_html(
 
 poster() |>
   econWeb::save_html2(file=file.path("docs", "index.html"))
+
+poster(context = htmltools::includeHTML("event_introduction.txt")) |> econWeb::browseTag2()
