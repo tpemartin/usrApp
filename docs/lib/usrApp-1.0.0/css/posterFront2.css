@@ -6,7 +6,7 @@
     background-position: center;
 }
 
-.posterFront-fixbar{flex:none;order:1;align-self:stretch;flex-grow:0;margin:1.66666666666667px 0px;position:sticky;height:0.000001px;right:10px;top:456.2px;}
+.posterFront-fixbar{flex:none;order:1;align-self:flex-end;flex-grow:0;margin:1.66666666666667px 0px;position:absolute;height:0.000001px;top:456.2px;}
 
 .posterFront-fixbar > div.btnCalendar {
   right: 49.08px;
