@@ -6,7 +6,7 @@ htmltools::save_html(
   htmltools::tagList(tag, dep_mobile()), file=file.path("temp","temp.html")
 )
 
-poster() |>
-  econWeb::save_html2(file=file.path("docs", "index.html"))
+poster(context = htmltools::includeHTML("event_introduction.txt")) |>
+  econWeb::save_html2(file=file.path("docs", "event426.html"))
 
 poster(context = htmltools::includeHTML("event_introduction.txt")) |> econWeb::browseTag2()
