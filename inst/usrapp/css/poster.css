@@ -48,7 +48,8 @@ height: 54px;
 background:no-repeat center url(../img/iconReturn.svg);background-size:contain;
 
 }
-.posterFront-fixbar > div.btnCalendar {
+.posterFront-fixbar > div.btnCalendar,
+.posterFront-fixbar > a.btnCalendarLink {
 right: -5px;
 bottom: -49px;
 }
