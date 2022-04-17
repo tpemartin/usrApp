@@ -5,3 +5,11 @@ fig$update_css()
 fig$export("inst/usrapp/css/components/signup")
 
 
+# add calendar ------------------------------------------------------------
+
+fig=econWeb::Fig()
+fig$export("inst/usrapp/css/components/addCalendar")
+
+# posterFront
+fig=econWeb::Fig()
+fig$export("inst/usrapp/css/components/posterFront2")

@@ -58,6 +58,6 @@ background: #FFFFFF;
 justify-content: space-between;
 display:flex;flex-direction:row;align-items:center;padding:0px 10px;flex:none;order:1;align-self:stretch;flex-grow:0;margin:21.5px 0px;position:static;height:118px;left:10px;top:501.2px;}
 .posterFront-titleDetail-title{flex:none;order:0;flex-grow:1;margin:0px 15px;position:static;width:200.08px;height:108px;left:20px;top:5px;font-family:'Noto Sans TC';font-style:normal;font-weight:400;font-size:20px;line-height:36px;display:flex;align-items:center;color:#FFFFFF;}
-.posterFront-titleDetail-detail{flex:none;order:1;flex-grow:0;margin:0px 15px;position:static;width:54px;height:54px;left:250.08px;top:29px;background:no-repeat center url(/lib/usrAppImg-1.0.0/iconMore.svg);}
-.posterBack-titleDetail-return{flex:none;order:1;flex-grow:0;margin:0px 15px;position:static;width:54px;height:54px;left:250.08px;top:29px;background:no-repeat center url(/lib/usrAppImg-1.0.0/iconReturn.svg);}
+.posterFront-titleDetail-detail{flex:none;order:1;flex-grow:0;margin:0px 15px;position:static;width:54px;height:54px;left:250.08px;top:29px;background:no-repeat center url(../img/iconMore.svg);}
+.posterBack-titleDetail-return{flex:none;order:1;flex-grow:0;margin:0px 15px;position:static;width:54px;height:54px;left:250.08px;top:29px;background:no-repeat center url(../img/iconReturn.svg);}
 
