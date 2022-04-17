@@ -1,4 +1,4 @@
-posterFront2_dependency <- addCalendar_dependency <- signup_dependency <- app_dependency <- share_dependency <- btnAddCalendar_dependency <-posterFront_dependency <-function(){
+poster_dependency <-posterFront2_dependency <- addCalendar_dependency <- signup_dependency <- app_dependency <- share_dependency <- btnAddCalendar_dependency <-posterFront_dependency <-function(){
   htmltools::htmlDependency(
     name="usrApp",
     version="1.0.0",
