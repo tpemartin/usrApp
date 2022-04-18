@@ -18,7 +18,8 @@ tag_poster <-function(title, date, imgSrc, context){
           tags$div(class="btnReturn", style="display:none;")),
         btn_addCalendar2(),
         btnSignup())
-      ))
+      )) |>
+    tags$body()
 }
 
 # poster_dependency <- function(){
