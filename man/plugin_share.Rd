@@ -4,7 +4,7 @@
 \alias{plugin_share}
 \title{Share button plugin}
 \usage{
-plugin_share()
+plugin_share(backgroundColor = "black", pressed = F)
 }
 \arguments{
 \item{dependency}{}

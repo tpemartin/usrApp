@@ -1,6 +1,8 @@
 .posterFront{display:flex;flex-direction:column;align-items:center;padding:15px 10px;position:absolute;width:341px;
   max-width: 400px;
-height:610px;left:17px;top:81px;background:#333333;border-radius:16px;}
+height:610px;
+max-height: 90vh;
+left:17px;top:81px;background:#333333;border-radius:16px;}
 .posterFront-container{flex:none;order:0;flex-grow:0;margin:3.5px 0px;position:static;width:321px;height:451px;left:10px;top:15px;}
 .posterFront-container-image{position:absolute;height:443.2px;left:0px;right:-0.08px;top:0px;
     background-size: contain;

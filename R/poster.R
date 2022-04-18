@@ -29,8 +29,23 @@ tag_poster <-function(title, date, imgSrc, context){
 #     style="poster.css",
 #     all_files = F
 #   )}
+
+#' Poster UI
+#'
+#' @param title
+#' @param date
+#' @param imgSrc
+#' @param context
+#' @param dependency
+#'
+#' @return
+#' @export
+#'
+#' @examples none.
 poster <- function(title="USR公民培訓課程：UI設計神器Figma", date="4.26, 4.29", imgSrc="lib/usrApp-1.0.0/img/figmaposter-sm.jpg", context="test", dependency=NULL){
+  require(htmltools)
   tagList(tag_poster(title, date, imgSrc, context),
-    meta_dep(), jquery_dependency(), poster_dependency(),  img_dependency(), dependency)
+    meta_dep(), jquery_dependency(), poster_dependency(),  img_dependency()
+    )
 }
 # poster() |> econWeb::browseTag2()
