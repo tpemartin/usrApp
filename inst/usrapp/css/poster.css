@@ -1,27 +1,32 @@
 .posterFront{display:flex;flex-direction:column;align-items:center;
 /*padding:15px 10px; */
-position:absolute;width:90vw;
-  max-width: 400px;
-height:610px;
-max-height: 90vh;
-left:17px;top:10px;background:#333333;border-radius:16px;}
-.posterFront-container{flex:none;order:0;flex-grow:0;margin:3.5px 0px;position:static;width:321px;height:451px;left:10px;top:15px;}
-.posterFront-container-image{position:absolute;height:443.2px;left:0px;right:-0.08px;top:0px;
+position:relative;width: 324px;
+height: 522px;
+left: calc(50% - 324px/2);
+top: calc(50% - 522px/2);
+background:#333333;border-radius:16px;}
+.posterFront-container{flex:none;order:0;flex-grow:0;margin:7px 0px;position: relative;
+width: 321px;
+height: 394px;
+left: 1.5px;
+top: 0px;}
+.posterFront-container-image{position:absolute;left:2%;right:2%;top:1.65%;bottom:0.13%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.posterFront-titleDetail{display:flex;flex-direction:row;justify-content:center;align-items:flex-start;padding:0px 10px 14px;flex:none;order:1;flex-grow:0;margin:3.5px 0px;position:static;width:321px;height:122px;left:10px;top:473px;}
-.posterFront-titleDetail-container{display:flex;flex-direction:column;align-items:flex-start;padding:0px;flex:none;order:0;flex-grow:0;position:static;width:215px;height:108px;left:10px;top:0px;}
-.posterFront-titleDetail-container-date{flex:none;order:0;flex-grow:0;margin:0px 0px;position:static;width:114px;height:36px;left:0px;top:0px;font-family:'Noto Sans TC';font-style:normal;font-weight:700;font-size:24px;line-height:36px;display:flex;align-items:center;color:#F2F2F2;}
-.posterFront-titleDetail-container-title{flex:none;order:1;flex-grow:0;margin:0px 0px;position:static;width:215px;height:72px;left:0px;top:36px;font-family:'Noto Sans TC';font-style:normal;font-weight:400;font-size:24px;line-height:36px;display:flex;align-items:center;color:#FFFFFF;}
+.posterFront-titleDetail{display:flex;flex-direction:row;justify-content:center;align-items:flex-start;padding:0px 10px 14px;flex:none;order:1;flex-grow:0;margin:3.5px 0px;align-self: stretch;
+position:static;width:304px;height:105px;left:10px;top:433px;}
+.posterFront-titleDetail-container{display:flex;flex-direction:column;align-items:flex-start;padding:0px;flex:none;order:0;flex-grow:0;position:static;width:215px;height:96px;left:1.5px;top:0px;}
+.posterFront-titleDetail-container-date{flex:none;order:0;flex-grow:0;margin:0px 0px;position:static;width:114px;height:36px;left:0px;top:0px;font-family:'Noto Sans TC';font-style:normal;font-weight:600;font-size:24px;line-height:36px;display:flex;align-items:center;color:#F2F2F2;}
+.posterFront-titleDetail-container-title{flex:none;order:1;flex-grow:0;margin:0px 0px;position:static;width:215px;height:60px;left:0px;top:36px;font-family:'Noto Sans TC';font-style:normal;font-weight:300;font-size:20px;line-height:30px;display:flex;align-items:center;color:#FFFFFF;}
 
 .posterFront-fixbar {
   position: relative;
 width: 81px;
 height: 0.00001px;
-right: 10px;
+right: 3px;
 top: 0px;
 
 
@@ -62,15 +67,15 @@ right: 45px;
 bottom: -36px;
 }
 .posterFront-fixbar > div.detailReturn{
-right: 14px;
-top: 55px;
+right: 25px;
+top: 44px;
 }
 .posterBack-container {
   position: relative;
 /*width: 321px;*/
-height: 451px;
+height: 394px;
 left: 0px;
-top: 15px;
+top: 1.5px;
 
 
 /* Inside auto layout */
@@ -79,14 +84,14 @@ flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-margin: 5px 10px;
+margin: 7px 0px;
 }
 .posterBack-container-text {
   position: absolute;
-height: 440px;
-left: 0px;
-right: 4px;
-top: 0.13px;
+left: 2%;
+    right: 2%;
+    top: 1.65%;
+    bottom: 0.13%;
 overflow-y: scroll;
 
 background: #FFFFFF;
@@ -100,9 +105,9 @@ bottom: 18.99%;
 
 font-family: 'Noto Sans TC';
 font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
 
 color: #000000;
 }
