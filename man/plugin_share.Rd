@@ -9,9 +9,6 @@ plugin_share(backgroundColor = "black", pressed = F)
 \arguments{
 \item{dependency}{}
 }
-\value{
-
-}
 \description{
 Share button plugin
 }

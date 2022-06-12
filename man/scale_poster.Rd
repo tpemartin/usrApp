@@ -9,9 +9,6 @@ scale_poster(filename)
 \arguments{
 \item{filename}{}
 }
-\value{
-
-}
 \description{
 Scale poster image proportionally to width 360px
 }

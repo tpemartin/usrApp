@@ -15,9 +15,6 @@ poster(
 \arguments{
 \item{dependency}{}
 }
-\value{
-
-}
 \description{
 Poster UI
 }
