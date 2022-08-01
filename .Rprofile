@@ -1,5 +1,6 @@
 library(htmltools)
 library(econWeb)
+apptest::serve_config(list(path="temp", port=8880))
 # web <- Web()
 # web$add_jQuery()
 # web$create_page()

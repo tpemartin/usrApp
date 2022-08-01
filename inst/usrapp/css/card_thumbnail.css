@@ -1,4 +1,6 @@
-.card_thumbnail{display:flex;flex-direction:column;align-items:flex-start;padding:0px;box-sizing:border-box;position:relative;width:91px;height:232px;border:1px solid #E0E0E0;filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius:12px;}
+.card_thumbnail{display:flex;flex-direction:column;align-items:flex-start;padding:0px;box-sizing:border-box;position:relative;width:91px;height:232px;border:1px solid #E0E0E0;filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));border-radius:12px;
+  margin: 0 16px 16px 16px;
+}
 .card_thumbnail-thumbnail{flex:none;order:0;flex-grow:0;margin:px;width:91px;height:143px;border-radius:12px 12px 0px 0px;}
 .IMG_2681 3{position:absolute;left:-46.15%;right:-46.15%;top:-11.18%;bottom:-34.55%;background:url(IMG_2681.jpg);}
 .card_thumbnail-division{flex:none;order:1;align-self:stretch;flex-grow:0;margin:px;height:0px;border:1px solid #BDBDBD;}

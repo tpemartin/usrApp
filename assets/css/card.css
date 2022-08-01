@@ -1,4 +1,4 @@
-.cardLarge{position:relative;height:280px;filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));max-width:529px;}
+.cardLarge{position:relative;height:280px;filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));max-width:529px; margin: 16px 0;}
 .cardLarge-background{position:absolute;left:0%;right:0%;top:0%;bottom:0%;background-color:#e9e9e9;overflow:hidden;}
 .cardLarge-background-image{position:absolute;left:0%;right:0%;top:0%;bottom:-98.36%;mix-blend-mode:overlay;background-size:auto 280px;background-repeat:no-repeat;}
 .cardLarge-content{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;padding:10px 25px;position:absolute;left:0%;right:0%;top:0%;bottom:0%;}
@@ -6,5 +6,7 @@
 .cardLarge-content-category-icon{flex:none;order:0;flex-grow:0;margin:0px 10px;position:relative;width:60px;height:60px;left:0px;top:0px;background:#FFFFFF;mix-blend-mode:normal;border:1px solid #000000;box-sizing:border-box;border-radius:60px;}
 .cardLarge-content-category-icon-image{position:absolute;width:40px;height:40px;left:calc(50% - 40px/2);top:calc(50% - 40px/2);background:url(college.png);}
 .cardLarge-content-category-name{flex:none;order:1;flex-grow:0;margin:0px 10px;position:static;width:120px;right:279px;top:26.67%;bottom:26.67%;font-family:Roboto;font-style:normal;font-weight:normal;font-size:24px;line-height:28px;color:#000000;}
-.cardLarge-content-title{flex:none;order:1;align-self:stretch;flex-grow:0;margin:5px 0px;position:static;height:55px;left:25px;top:215px;}
+.cardLarge-content-title{
+  color: black;
+  flex:none;order:1;align-self:stretch;flex-grow:0;margin:5px 0px;position:static;height:55px;left:25px;top:215px;}
 .text{position:absolute;left:0%;right:0%;top:0%;bottom:0%;font-family:Roboto;font-style:normal;font-weight:normal;font-size:24px;line-height:28px;color:#000000;border:1px solid #F2F2F2;}
